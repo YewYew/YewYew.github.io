@@ -6,7 +6,7 @@ body {
 
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content:url(DirtBackground0.png), url(DirtBackground1.png), url(DirtBackground2.png), url(DirtBackground3.png), url(DirtBackground4.png), url(DirtBackground5.png), url(DirtBackground6.png), url(discordButton.png), url(discordButtonHover.png), url(githubButton.png), url(githubButtonHover.png), url(RockBackground0.png), url(RockBackground1.png), url(RockBackground2.png), url(RockBackground3.png), url(RockBackground4.png), url(steamButton.png), url(steamButtonHover.png), url(YewIcon.png), url(YewIconPixel.png), url(youtubeButton.png), url(youtubeButtonHover.png);
+    content:url(DirtBackground0.png), url(DirtBackground1.png), url(DirtBackground2.png), url(DirtBackground3.png), url(DirtBackground4.png), url(DirtBackground5.png), url(DirtBackground6.png), url(discordButton.png), url(discordButtonHover.png), url(githubButton.png), url(githubButtonHover.png), url(RockBackground0.png), url(RockBackground1.png), url(RockBackground2.png), url(RockBackground3.png), url(RockBackground4.png), url(steamButton.png), url(steamButtonHover.png), url(Ycon.png), url(YconPixel.png), url(youtubeButton.png), url(youtubeButtonHover.png);
 }
 
 html {
@@ -85,8 +85,8 @@ nav ul li a {
 	animation: bobFloat 5s linear infinite;
 	animation-delay: 450ms;
 }
-.yewIcon {
-	background: url("../images/YewIcon.png") no-repeat;
+.Ycon {
+	background: url("../images/Ycon.png") no-repeat;
 	width: 92px;
 	height: 120px;
 	background-size: 92px 120px;
@@ -135,8 +135,8 @@ nav ul li a {
 	height: 41px;
 	/* animation-play-state: paused; */
 }
-.yewIcon:hover {
-	background: url("../images/YewIcon.png") no-repeat;
+.Ycon:hover {
+	background: url("../images/Ycon.png") no-repeat;
 	width: 92px;
 	height: 120px;
 	background-size: 92px 120px;
