@@ -16,9 +16,7 @@ html {
 
 nav {
   overflow: shown;
-  max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
   padding-top: 60px;
 }
 
@@ -45,11 +43,19 @@ nav ul li a {
   display: block;
 }
 */
+.newgroundsButton {
+	background: url("../images/newgroundsButton.png") no-repeat;
+	width: 47px; 
+	height: 41px;
+	animation: bobFloat 5s linear infinite;
+	animation-delay: -150ms;
+}
 .youtubeButton {
 	background: url("../images/youtubeButton.png") no-repeat;
 	width: 47px; 
 	height: 41px;
 	animation: bobFloat 5s linear infinite;
+	animation-delay: 50ms;
 }
 .githubButton {
 	background: url("../images/githubButton.png") no-repeat;
@@ -72,47 +78,68 @@ nav ul li a {
 	animation: bobFloat 5s linear infinite;
 	animation-delay: 350ms;
 }
+.twitchButton {
+	background: url("../images/twitchButton.png") no-repeat;
+	width: 47px; 
+	height: 41px;
+	animation: bobFloat 5s linear infinite;
+	animation-delay: 450ms;
+}
 .yewIcon {
 	background: url("../images/YewIcon.png") no-repeat;
-	width: 175px;
-	height: 100px;
-	background-size: 175px 100px;
+	width: 92px;
+	height: 120px;
+	background-size: 92px 120px;
 	position: relative;
     top: -50px;
+}
+.newgroundsButton:hover {
+	background: linear-gradient( rgba(50, 65, 55, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/newgroundsButtonHover.png") no-repeat;
+	background-color: rgba(50, 65, 55, 0.5);
+	width: 47px; 
+	height: 41px;
+	/* animation-play-state: paused; */
 }
 .youtubeButton:hover {
 	background: linear-gradient( rgba(50, 65, 55, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/youtubeButtonHover.png") no-repeat;
 	background-color: rgba(50, 65, 55, 0.5);
 	width: 47px; 
 	height: 41px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 .githubButton:hover {
 	background: linear-gradient( rgba(50, 65, 55, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/githubButtonHover.png") no-repeat;
 	background-color: rgba(50, 65, 55, 0.5);
 	width: 47px; 
 	height: 41px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 .steamButton:hover {
 	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/steamButtonHover.png") no-repeat;
 	background-color: rgba(50, 65, 55, 0.5);
 	width: 47px; 
 	height: 41px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
 }
 .discordButton:hover {
 	background: linear-gradient( rgba(50, 65, 55, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/discordButtonHover.png") no-repeat;
 	background-color: rgba(50, 65, 55, 0.5);
 	width: 47px; 
 	height: 41px;
-	animation-play-state: paused;
+	/* animation-play-state: paused; */
+}
+.twitchButton:hover {
+	background: linear-gradient( rgba(50, 65, 55, 0.25), rgba(50, 65, 55, 0.25) ), url("../images/twitchButtonHover.png") no-repeat;
+	background-color: rgba(50, 65, 55, 0.5);
+	width: 47px; 
+	height: 41px;
+	/* animation-play-state: paused; */
 }
 .yewIcon:hover {
-	background: url("../images/YewIconPixel.png") no-repeat;
-	width: 175px;
-	height: 100px;
-	background-size: 175px 100px;
+	background: url("../images/YewIcon.png") no-repeat;
+	width: 92px;
+	height: 120px;
+	background-size: 92px 120px;
 }
 
 #top-container {
