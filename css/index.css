@@ -135,12 +135,12 @@ nav ul li a {
 	height: 41px;
 	/* animation-play-state: paused; */
 }
-/* .Ycon:hover {
-	background: url("../images/Ycon.png") no-repeat;
+.Ycon:hover {
+	background: url("../images/YCon.png") no-repeat;
 	width: 92px;
 	height: 120px;
 	background-size: 92px 120px;
-}*/
+}
 
 #top-container {
 	background-color: rgb(95, 205, 228);
