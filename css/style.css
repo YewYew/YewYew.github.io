@@ -3,25 +3,25 @@ body {
 		background-color: black;
 	}
 	.b0 {
-		position: absolute; top: 5%; left: calc(50% - 64px); 
+		position: absolute; top: 5%; left: calc(50% - 64px);
 	}
 	.b1 {
-		position: absolute; top: 10%; left: calc(20% - 64px); 
+		position: absolute; top: 20%; left: calc(20% - 64px);
 	}
 	.b2 {
-		position: absolute; top: 20%; right: calc(20% - 64px); 
+		position: absolute; top: 20%; right: calc(20% - 64px);
 	}
 	.b3 {
-		position: absolute; top: 30%; left: calc(20% - 64px); 
+		position: absolute; top: 40%; left: calc(20% - 64px);
 	}
 	.b4 {
 		position: absolute; top: 40%; right: calc(20% - 64px); 
 	}
 	.b5 {
-		position: absolute; top: 50%; left: calc(20% - 64px); 
+		position: absolute; top: 60%; left: calc(20% - 64px);
 	}
 	.b6 {
-		position: absolute; top: 60%; right: calc(20% - 64px); 
+		position: absolute; top: 60%; right: calc(20% - 64px);
 	}
 	.b7 {
 		position: absolute; top: 70%; left: calc(20% - 64px); 
